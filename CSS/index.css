@@ -144,6 +144,9 @@ body{
 }*/
 
 @media screen and (max-width: 1000px){
+	body{
+		overflow:visible;
+	}
 	.right_1{
 		display: none;
 		width: 0px;
