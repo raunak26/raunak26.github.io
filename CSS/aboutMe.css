@@ -231,6 +231,22 @@ body{
 	font-family: "Brush Script MT";
 }
 
+#fullpage .skills>div>progress{
+	width:77.5vw;
+}
+
+@media screen and (max-width: 800px) {
+	#fullpage .skills>div>progress{
+		width:65vw;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#fullpage .skills>div>progress{
+		width:55vw;
+	}
+}
+
 #fullpage .projects h2{
 	font-weight:normal;
 	font-size: 40px;
