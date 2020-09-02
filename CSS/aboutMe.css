@@ -235,7 +235,6 @@ body{
 
 #fullpage .skills>div>progress{
 	width:77.5vw;
-  background-image: 
 }
 
 @media screen and (max-width: 800px) {
@@ -246,7 +245,7 @@ body{
 
 @media screen and (max-width: 600px) {
 	#fullpage .skills>div>progress{
-		width:50vw;
+		width:45vw;
 	}
 }
 
