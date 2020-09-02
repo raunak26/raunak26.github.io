@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Raunak Anand</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="CSS/index.css">
+	<link href='https://fonts.googleapis.com/css?family=Lexend Peta' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" class="active">Home</a>
+  		<a href="aboutMe.html">About Me</a>
+  		<a href="resume.html">Resume</a>
+  		<a href="blog.html">Blog</a>
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+  		</a>
+	</div>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+  				x.className += " responsive";
+  			} else {
+  				x.className = "topnav";
+  			}
+		}
+	</script>
+	<aside class = "left">
+		<img src="images/raunakAnand.jpeg" alt="Raunak Anand" id="myPic">
+		<h3>Raunak Anand</h3>
+		<p>
+			Ongoing BS Student in Computer Science and Statistics
+		</p>
+		<p>
+			Davis, California
+		</p>
+		<p>
+			<a href="mailto:rsanand@ucdavis.edu" target="_blank">rsanand[at]ucdavis[dot]edu</a>
+		</p>
+		<a href="https://www.linkedin.com/in/raunak-anand" target="_blank">
+			<img alt="LinkedIn" src="images/linkedin.png" id="linkedin">
+      	</a>
+      	<a href="https://github.com/raunak26" target="_blank">
+        	<img alt="Github" src="images/github.png" id="github">
+        </a>
+	</aside>
+	<section class = "right_1">
+		<h3>HELLO, I'M</h3>
+		<h1>Raunak Anand</h1>
+		<h4>Computer Science and Statistics Student at UC Davis</h4>	
+	</section>
+</body>
+</html>
