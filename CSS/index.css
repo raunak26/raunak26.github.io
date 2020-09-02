@@ -76,21 +76,21 @@ body{
 	/*padding-top: 80px;*/
 	padding-top: 45vh;
 	font-size: 30px;
-	margin-bottom: -50px;
+	margin-bottom: -65px;
 	font-weight:normal;
-	font-family: 'Helvetica';
+	font-family: 'Lexend Peta';
 }
 
 .right_1 h1{
 	font-size: 70px;
 	margin-bottom: -20px;
-	font-family: 'Lobster';
+	font-family: 'Kaushan Script';
 }
 
 .right_1 h4{
-	font-size: 20px;
+	font-size: 14px;
 	font-weight:normal;
-	font-family: 'Lobster';
+	font-family: 'Lexend Peta';
 }
 
 .left{
@@ -108,7 +108,7 @@ body{
 	text-align: center;
 	padding-left: 5px;
 	font-size: 18px;
-	font-family: 'Lobster';
+	font-family: 'Kaushan Script';
 }
 
 .left p>a{
@@ -117,7 +117,7 @@ body{
 	text-align: center;
 	padding-left: 5px;
 	font-size: 18px;
-	font-family: 'Lobster';
+	font-family: 'Kaushan Script';
 }
 
 .left h3{
