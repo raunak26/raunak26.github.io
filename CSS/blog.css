@@ -84,6 +84,7 @@ body{
 }
 
 .footer [alt = "LinkedIn"],[alt="Github"]{
+	  float: right;
 	  width: 50px;
 	  text-align: center;
 	  align-items: center;
